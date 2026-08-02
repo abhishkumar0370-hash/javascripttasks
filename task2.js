@@ -1,3 +1,4 @@
+// positiv and negative numbers
 let i=-5;
 
 while (i<=10) {
