@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let guess;
+
+        do {
+            
+            guess= Number(prompt("Guess Number"));
+
+            if (guess === 8){
+                document.write("correct number 👍");
+            } else{
+                alert("incorrect tryagain");
+            }
+
+        } while (guess !== 8);
+    </script>
+</body>
+</html>
