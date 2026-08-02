@@ -1,3 +1,4 @@
+// divisible by 5
 let i=1;
 
 while (i<=50) {
